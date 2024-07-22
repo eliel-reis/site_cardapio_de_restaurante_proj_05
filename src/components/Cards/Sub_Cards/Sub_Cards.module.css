@@ -1,0 +1,38 @@
+.card {
+    border: 2px solid #daa520;
+    width: 250px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.img {
+    height: 250px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.container_texto {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.primeiro_p,
+.segundo_p {
+    font-size: 12px;
+}
+
+.primeiro_p {
+    color: #daa520;
+}
+
+.container_texto aside {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}

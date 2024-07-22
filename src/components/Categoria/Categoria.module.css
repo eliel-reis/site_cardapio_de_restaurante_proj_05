@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img {
+    height: 20px;
+    width: 20px;
+}
+
+.btn {
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.194);
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.btn_clicado {
+    background-color: #daa520;
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.194);
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+
+
+@media (max-width: 765px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        flex-grow: 1;
+
+    }
+
+    .btn_clicado {
+        flex-grow: 1;
+    }
+
+}
