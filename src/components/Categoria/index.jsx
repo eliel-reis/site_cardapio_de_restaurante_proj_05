@@ -1,12 +1,12 @@
 "use client";
 import { useState } from "react";
 
-import entrada from "/public/Assets/entrada.png";
-import massa from "/public/Assets/massa.png"
-import carne from "/public/Assets/carne.png"
-import bebidas from "/public/Assets/bebidas.png"
-import salada from "/public/Assets/salada.png"
-import sobremesa from "/public/Assets/sobremesa.png"
+import entrada from "/public/assets/entrada.png";
+import massa from "/public/assets/massa.png"
+import carne from "/public/assets/carne.png"
+import bebidas from "/public/assets/bebidas.png"
+import salada from "/public/assets/salada.png"
+import sobremesa from "/public/assets/sobremesa.png"
 import Image from "next/image";
 
 import styles from "./Categoria.module.css";

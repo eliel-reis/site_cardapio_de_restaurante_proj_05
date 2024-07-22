@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import lupa from "/public/Assets/lupa.png";
+import lupa from "/public/assets/lupa.png";
 import styles from "./Campo_De_Busca.module.css";
 
 
