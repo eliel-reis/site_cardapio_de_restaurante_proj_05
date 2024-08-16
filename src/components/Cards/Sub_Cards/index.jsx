@@ -12,8 +12,9 @@ export default function Sub_Cards({ h3, primeiro_p, segundo_p, preco, imagem }) 
     return (
 
         < section className={styles.card} >
-
-            <Image className={styles.img} src={imagem} />
+            <picture className={styles.picture}>
+                <Image className={styles.img} src={imagem} />
+            </picture>
             <section className={styles.container_texto} >
                 <h3>
                     {h3}

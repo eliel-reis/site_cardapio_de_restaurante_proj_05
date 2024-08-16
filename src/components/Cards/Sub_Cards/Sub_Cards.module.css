@@ -8,9 +8,13 @@
 }
 
 .img {
-    height: 250px;
+    height: 100%;
     width: 100%;
     border-radius: 8px 8px 0 0;
+}
+
+.picture {
+    min-height: 200px ;
 }
 
 .container_texto {
